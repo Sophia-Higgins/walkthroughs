@@ -1,13 +1,26 @@
-.App {
-  text-align: center;
+.intro {
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.App-header {
-  background-color: #4a515e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.intro-img {
+  max-width: 100%;
+  height: 80%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.key-header {
+  text-align: left;
+}
+
+.key-img {
+  height: 25%;
+  width: 25%;
+}
+
+.next-page-button {
+  float: right;
 }

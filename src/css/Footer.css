@@ -1,0 +1,17 @@
+.footer {   
+  flex-shrink: 0; 
+  background-color: #4a515e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.disclaimer {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left:10px;
+  margin-right:10px;
+}
