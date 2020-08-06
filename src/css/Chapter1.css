@@ -1,9 +1,9 @@
-.intro {
+.chapter1 {
   margin-left: 150px;
   margin-right: 150px;
 }
 
-.intro-img {
+.chapter1-img {
   max-width: 100%;
   height: 80%;
   width: 80%;
@@ -16,29 +16,32 @@
   text-align: left;
 }
 
-.intro > .key-img {
+.chapter1 > .key-img {
   height: 40%;
   width: 40%;
-  text-align: center;
 }
 
 .next-page-button {
   float: right;
 }
 
+.previous-page-button {
+  float: left;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 568px) {
-  .intro {
+  .chapter1 {
     margin-left: 3px;
     margin-right: 3px;
   }
 
-  .intro > .key-img {
+  .chapter1 > .key-img {
     height: 80%;
     width: 80%;
     text-align: center;
   }
 
-  .intro > .intro-img {
+  .chapter1 > .chapter1-img {
     height: 100%;
     width: 100%;
   }

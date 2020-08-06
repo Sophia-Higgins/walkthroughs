@@ -7,7 +7,7 @@ TODO list:
 -Create Epilogue page
 -Create Achievements page
 -Implement side navbar
--Add links to 'next page' or 'previous page'
+-Change links into buttons
 -Implement responsive resizing of images and text
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

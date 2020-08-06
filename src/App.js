@@ -1,17 +1,19 @@
 import React from 'react';
 import './App.css';
-import Intro from './components/Intro';
 import Footer from './components/Footer';
+import Routes from './components/Routes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Across the Grooves Walkthrough
-        </p>
-      </header>
-      <Intro />
+      <div className="Site-content">
+        <header className="App-header">
+          <p>
+            Across the Grooves Walkthrough
+          </p>
+        </header>
+        <Routes />
+      </div>
       <Footer />
     </div>
   );

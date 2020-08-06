@@ -1,24 +1,16 @@
-.intro {
+.home {
   margin-left: 150px;
   margin-right: 150px;
-}
-
-.intro-img {
-  max-width: 100%;
-  height: 80%;
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .key-header {
   text-align: left;
 }
 
-.intro > .key-img {
+.home > .key-img {
   height: 40%;
   width: 40%;
+  align-items: center;
   text-align: center;
 }
 
@@ -26,20 +18,18 @@
   float: right;
 }
 
+.previous-page-button {
+  float: left;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 568px) {
-  .intro {
+  .home {
     margin-left: 3px;
     margin-right: 3px;
   }
 
-  .intro > .key-img {
+  .home > .key-img {
     height: 80%;
     width: 80%;
-    text-align: center;
-  }
-
-  .intro > .intro-img {
-    height: 100%;
-    width: 100%;
   }
 }

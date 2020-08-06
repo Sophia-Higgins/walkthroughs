@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { Router, Route } from "react-router-dom";
-import App from '../App';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import Home from './Home';
 import Intro from './Intro';
 import Chapter1 from './Chapter1';
 
-export default class Routes extends Component {
-  render() {
-    return (
-      <Router>
-        <Route path="/" exact component={App} />
-        <Route path="/Intro" component={Intro} />
-        <Route path="/Chapter1" component={Chapter1} />
-      </Router>
-    )
-  }
+const Routes = () => {
+  return (
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/Intro" component={Intro} />
+      <Route exact path="/Chapter1" component={Chapter1} />
+    </Switch>
+  );
 }
+
+export default Routes;

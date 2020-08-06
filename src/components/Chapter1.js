@@ -1,9 +1,14 @@
 import React from 'react';
-import '../css/Intro.css';
+import '../css/Chapter1.css';
 import key from '../images/Key.png';
 import chapter1 from '../images/Chapter1.png';
+import { Link } from 'react-router-dom';
 
 class Chapter1 extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+}
+
   render() {
     return <div className="chapter1">
       <p>Chapter 1 is where the decision trees start to get much more complicated!</p>
@@ -12,6 +17,9 @@ class Chapter1 extends React.Component {
       <br />
       <h3>Chapter 1</h3>
       <img className="chapter1-img" src={chapter1} alt="chapter1" />
+      <br />
+      <Link to="/Intro" className="previous-page-button">Intro</Link>
+      <br />
     </div>
   }
 }
