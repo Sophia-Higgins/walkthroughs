@@ -16,12 +16,6 @@
   text-align: left;
 }
 
-.intro > .key-img {
-  height: 40%;
-  width: 40%;
-  text-align: center;
-}
-
 .next-page-button {
   float: right;
 }
@@ -30,12 +24,6 @@
   .intro {
     margin-left: 3px;
     margin-right: 3px;
-  }
-
-  .intro > .key-img {
-    height: 80%;
-    width: 80%;
-    text-align: center;
   }
 
   .intro > .intro-img {

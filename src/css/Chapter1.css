@@ -16,11 +16,6 @@
   text-align: left;
 }
 
-.chapter1 > .key-img {
-  height: 40%;
-  width: 40%;
-}
-
 .next-page-button {
   float: right;
 }
@@ -33,12 +28,6 @@
   .chapter1 {
     margin-left: 3px;
     margin-right: 3px;
-  }
-
-  .chapter1 > .key-img {
-    height: 80%;
-    width: 80%;
-    text-align: center;
   }
 
   .chapter1 > .chapter1-img {
