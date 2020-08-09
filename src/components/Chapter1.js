@@ -16,8 +16,10 @@ class Chapter1 extends React.Component {
       <br />
       <h3>Chapter 1</h3>
       <img className="chapter1-img" src={chapter1} alt="chapter1" />
+      <p>Note: the two options 'Do you think?' or 'I don't think so' will give you a combination of symbols, depending on the symbol options you have chosen up to that point.</p>
       <br />
       <Link to="/Intro" className="previous-page-button">Intro</Link>
+      <Link to="/Chapter2" className="next-page-button">Chapter 2</Link>
       <br />
     </div>
   }

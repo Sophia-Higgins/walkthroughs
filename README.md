@@ -1,6 +1,5 @@
 This is a personal project.
 TODO list:
--Create Chapter 2 page
 -Create Chapter 3 page
 -Create Chapter 4 page
 -Create Chapter 5 page
@@ -8,7 +7,6 @@ TODO list:
 -Create Achievements page
 -Implement side navbar
 -Change links into buttons
--Implement responsive resizing of images and text
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

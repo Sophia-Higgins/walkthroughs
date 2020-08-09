@@ -1,0 +1,33 @@
+.chapter2 {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.chapter2-img {
+  max-width: 100%;
+  height: 80%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next-page-button {
+  float: right;
+}
+
+.previous-page-button {
+  float: left;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .chapter2 {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .chapter2 > .chapter2-img {
+    height: 100%;
+    width: 100%;
+  }
+}
