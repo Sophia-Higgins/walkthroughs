@@ -21,7 +21,8 @@ class Chapter2 extends React.Component {
         </TransformComponent>
       </TransformWrapper>
       <br />
-      <Link to="/Chapter1" className="previous-page-button">Chapter1</Link>
+      <Link to="/Chapter1" className="previous-page-button">Chapter 1</Link>
+      <Link to="/Chapter3" className="next-page-button">Chapter 3</Link>
       <br />
     </div>
   }
