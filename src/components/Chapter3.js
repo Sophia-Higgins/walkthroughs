@@ -43,6 +43,7 @@ class Chapter3 extends React.Component {
       <img className="chapter3-img" src={chapter3Eddie} alt="chapter2Eddie" />
       <br />
       <Link to="/Chapter2" className="previous-page-button">Chapter 2</Link>
+      <Link to="/Chapter4" className="next-page-button">Chapter 4</Link>
       <br />
     </div>
   }
