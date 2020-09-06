@@ -25,8 +25,8 @@ class Chapter5 extends React.Component {
         </TransformWrapper>
         <br />
         <p>
-          If you choose to help Eddie in Chapter 3 and let him listent to the record, the following dialogue options
-          will become available.
+          If you choose to help Eddie in Chapter 3 and let him listen to the record, the following dialogue options will
+          become available.
         </p>
         <img className="chapter5-img" src={chapter5Eddie} alt="chapter5Eddie" />
         <br />
@@ -36,6 +36,9 @@ class Chapter5 extends React.Component {
         </p>
         <img className="chapter5-img" src={chapter5Frank} alt="chapter5Frank" />
         <br />
+        <Link to="/Epilogue" className="next-page-button">
+          Epilogue
+        </Link>
         <Link to="/Chapter4" className="previous-page-button">
           Chapter 4
         </Link>

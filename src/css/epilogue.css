@@ -1,0 +1,33 @@
+.epilogue {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.epilogue-img {
+  max-width: 100%;
+  height: 80%;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next-page-button {
+  float: right;
+}
+
+.previous-page-button {
+  float: left;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .epilogue {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .epilogue > .epilogue-img {
+    height: 100%;
+    width: 100%;
+  }
+}
